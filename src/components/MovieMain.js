@@ -23,7 +23,7 @@ const MovieMain = () => {
   }, []);
 
   if (loading) {
-   return <div className="loader">Searching for movies</div>;
+   return <div className="loader">Loading your movies ...</div>;
   }
 
   if (error) {
@@ -32,6 +32,7 @@ const MovieMain = () => {
 
   return (
     <div>
+      <h1 className="title">Movie Application</h1>
       <MovieCardList a="a" movies={movies} />
     </div>
   );

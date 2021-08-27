@@ -10,6 +10,11 @@ header {
   padding: 1rem;
 }
 
+.title{
+  text-align: center;
+  color: white;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -74,7 +79,7 @@ movie-info span.red {
 }
 
 .loader {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
   color: white;
 }
